@@ -1,0 +1,35 @@
+.app {
+  height: 100vh;
+  display: grid;
+}
+header {
+  background-color: #ddd;
+}
+
+main {
+  background-color: #ededed;
+}
+
+footer {
+  background-color: #ddd;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+figcaption {
+  text-transform: uppercase;
+}
+.features {
+  grid-column: span 2;
+}
+
+.features li {
+  display: flex;
+  border: 1px solid #bbb;
+}
+
+.image {
+  width: 120px;
+  height: 120px;
+  background-color: #ccc;
+}
