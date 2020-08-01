@@ -1,8 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #2b2942;
+}
+
 .app {
   height: 100vh;
   display: grid;
   grid-template-rows: 5em 1fr auto;
 }
+
 header {
   background-color: #ddd;
 }
@@ -16,20 +28,36 @@ footer {
   grid-template-rows: 3fr 1fr;
   grid-template-columns: 1fr;
   grid-row-gap: 1em;
-  background-color: #ddd;
-  padding: 2em;
+  background-color: #fff;
+  padding: 6em;
+}
+
+.footer-header {
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .links {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   grid-row-gap: 1em;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 35px;
 }
 
-.footer-header {
-  margin-bottom: 0.6em;
-  text-transform: uppercase;
+.links a {
+  color: #2b2942;
+  text-decoration: none;
 }
+
+.links a:hover {
+  color: #dc3a7a;
+}
+
 .featured-posts {
   grid-column: span 2;
 }
