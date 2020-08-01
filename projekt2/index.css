@@ -13,19 +13,20 @@ main {
 footer {
   background-color: #ddd;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 }
 
-figcaption {
+.footer-header {
+  margin-bottom: 2em;
   text-transform: uppercase;
 }
-.features {
+.featured-posts {
   grid-column: span 2;
 }
 
-.features li {
+.featured-posts .post {
   display: flex;
-  border: 1px solid #bbb;
+  margin-bottom: 1em;
 }
 
 .image {
