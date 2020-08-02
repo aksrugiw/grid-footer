@@ -2,6 +2,8 @@
 
 You can find more info in each project `README` file:
 
-[project 1](projekt1/README.md)
+- [Footer Layout](projekt2/README.MD)
 
-[project 2](projekt2/README.md)
+## Contact
+
+Created by [@aksrugiw](https://github.com/aksrugiw) - feel free to contact me!
