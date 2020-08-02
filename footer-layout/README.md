@@ -2,7 +2,7 @@
 
 Responsive footer based on layout from UI Design Daily
 
-![Example](screen.png)
+![Example](assets/images/screen.jpg)
 
 ## Credits
 

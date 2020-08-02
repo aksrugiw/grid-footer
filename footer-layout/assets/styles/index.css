@@ -90,7 +90,7 @@ footer {
 
 .links {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-row-gap: 3em;
   grid-column-gap: 1em;
   font-weight: normal;

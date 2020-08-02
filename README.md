@@ -2,7 +2,7 @@
 
 You can find more info in each project `README` file:
 
-- [Footer Layout](projekt2/README.MD)
+- [Footer Layout](footer-layout/README.md)
 
 ## Contact
 
