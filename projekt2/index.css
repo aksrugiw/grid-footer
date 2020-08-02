@@ -27,7 +27,7 @@ main {
 
 footer {
   display: grid;
-  grid-template-rows: 3fr 1fr;
+  grid-template-rows: 3fr minmax(166px, 1fr);
   grid-template-columns: 1fr;
   grid-row-gap: 1em;
   background-color: #fff;
@@ -76,8 +76,12 @@ footer {
   grid-template-columns: 1fr;
   color: #fff;
   padding: 30px 40px;
-  grid-gap: 2em;
+  grid-gap: 4em;
   align-items: center;
+}
+
+.upgrade-info {
+  text-align: center;
 }
 
 .upgrade-plan h4 {
@@ -111,5 +115,18 @@ footer {
 @media (min-width: 1163px) {
   .upgrade-plan {
     grid-template-columns: 3fr 1fr;
+    background-image: url("./bg-cta.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    grid-gap: 2em;
+  }
+
+  .upgrade-info {
+    text-align: left;
+  }
+
+  .cta {
+    justify-self: end;
   }
 }
