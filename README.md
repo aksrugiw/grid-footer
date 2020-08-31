@@ -1,8 +1,12 @@
-# CSS Grid Exercises
+# Footer Layout
 
-You can find more info in each project `README` file:
+Responsive footer based on layout from UI Design Daily
 
-- [Footer Layout](footer-layout/README.md)
+![Example](assets/images/screen.jpg)
+
+## Credits
+
+Design made by [UI Design Daily](https://uidesigndaily.com)
 
 ## Contact
 
